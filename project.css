@@ -161,6 +161,8 @@ body {
   font-weight: bolder;
   font-size: 38px;
   line-height: 2.7vw;
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
 }
 
 .ccy {
@@ -228,11 +230,15 @@ padding: 50px;
 
 .clo{
   font-size: 60px;
+    text-decoration: line-through;
+  text-decoration-thickness: 1px;
 }
 .clo1{
   font-size: 100px;
   font-weight: bolder;
   flex-wrap: wrap;
+    text-decoration: line-through;
+  text-decoration-thickness: 1px;
 }
 .oval{
   width: 200px;
