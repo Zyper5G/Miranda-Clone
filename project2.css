@@ -1,0 +1,390 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  background-image: none;
+}
+
+body {
+  background-image: url("./Multimedia/614f353f1e11a6a7afdd8b74_6059a3e2b9ae6d2bd508685c_pt-texture-2\ \(1\).jpg");
+}
+/* Navbar */
+.navbar {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  background-image: url(./Multimedia/614f353f1e11a6a7afdd8b74_6059a3e2b9ae6d2bd508685c_pt-texture-2\ \(1\).jpg);
+  border-bottom: 1.5px solid #939290;
+  z-index: 1050;
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  font-family: "IM Fell French Canon", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: bold;
+  color: #111;
+}
+
+.navbar-logo {
+  font-size: 18px;
+  font-weight: 700;
+  color: #111;
+  font-family: "IM Fell French Canon", serif;
+  font-style: normal;
+  letter-spacing: -0.5px;
+}
+
+/* 2-line hamburger */
+.custom-2line {
+  width: fit-content;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1100;
+  border: none !important; /* Removed border */
+}
+
+.custom-2line .line {
+  height: 3px;
+  width: 35px;
+  background-color: #111;
+  border-radius: 2px;
+  transition: all 0.4s ease;
+}
+
+/* Hover slide effect */
+.custom-2line:hover .line:first-child {
+  transform: translateX(5px);
+}
+.custom-2line:hover .line:last-child {
+  transform: translateX(-8  px);
+}
+
+
+.custom-2line.active .line:first-child {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.custom-2line.active .line:last-child {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Fullscreen offcanvas */
+.custom-offcanvas {
+  height: 100vh !important;
+  max-height: 100vh !important;
+  background-color: #111 !important;
+  color: #fff !important;
+  font-size: 50px;
+  transition: transform 0.6s ease;
+  text-align: center;
+}
+
+/* Big centered menu items */
+.big-link {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  margin: 20px 0 !important;
+  opacity: 0;
+  transform: translateY(30px) !important;
+  transition: opacity 0.5s ease, transform 0.5s ease !important;
+}
+
+/* Animate menu items in staggered */
+.offcanvas.show .big-link {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+.offcanvas.show .big-link:nth-child(1) {
+  transition-delay: 0.2s !important;
+}
+.offcanvas.show .big-link:nth-child(2) {
+  transition-delay: 0.4s !important;
+}
+.offcanvas.show .big-link:nth-child(3) {
+  transition-delay: 0.6s !important;
+}
+.offcanvas.show .big-link:nth-child(4) {
+  transition-delay: 0.8s !important;
+}
+
+.big-link:hover {
+  color: #50340b !important;
+}
+.sec-1 {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.sec-1-11 {
+  outline: 1px solid black;
+  /* flex-wrap: wrap; */
+}
+
+.head.h {
+  padding: 3vw;
+  font-size: 20vw;
+  margin: 22px;
+    font-family: "IM Fell French Canon", serif;
+}
+
+/* .head {
+  fill: none;
+  stroke: #96b59f;
+  stroke-miterlimit: 10;
+} */
+.yyy {
+  outline: 1px solid black;
+}
+.head {
+  color: #cdc6be;
+  text-align: left;
+  background-color: #1d1d1b;
+  padding: 4.5vw 1vw 1vw;
+  font-size: 36.6vw;
+}
+
+.sec-2 {
+  font-family: "IM Fell French Canon", serif;
+  /* font-weight: 700; */
+  /* font-size: 40px; */
+}
+
+.bby {
+  font-weight: bolder;
+  font-size: 38px;
+  line-height: 2.7vw;
+}
+
+.ccy {
+  font-size: 1.25vw;
+  line-height: 1.7vw;
+}
+
+.big-div {
+  /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+  display: flex;
+  gap: 75px;
+  margin-left: 30px;
+}
+
+.h-block {
+  display: flex;
+  float: left;
+}
+
+.set-2 {
+  color: #cdc6be;
+  text-align: left;
+  background-color: #1d1d1b;
+  padding: 4.5vw 1vw 1vw;
+  font-size: 16.6vw;
+  margin: 22px;
+}
+
+/* .imageye-selected {
+  outline: 2px solid black !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) !important;
+} */
+
+.postage {
+  width: 20vw;
+  max-width: 30vw;
+}
+/* .sec-3{
+display: grid;
+grid-template-columns: 1fr, 1fr, 1fr;
+}
+
+.sec-3-1{
+display: flex;
+gap: 50px;
+margin-left: 30px;
+}
+.nan{
+    margin-left: 30px;
+}
+.zoro{
+    display: flex;
+} */
+
+/* .sec-3{
+    display: grid;
+} */
+
+/* .left{
+    width: 65%;
+    height: 100%;
+    border-right: 1px solid #1d1d1b;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 3vw;
+    display: flex
+
+} */
+
+/* .right{
+    width: 36%;
+    padding-left: 3vw;
+    display: block;
+} */
+
+.sec-3{
+    font-family: "IM Fell French Canon", serif;
+}
+.bcc{
+    border-right: 1px solid #1d1d1b;
+    border-left: 1px solid #1d1d1b;
+    padding: 20px;
+}
+.dave{
+  font-size: 30px;
+}
+
+.vvc{
+    border-right: 1px solid #1d1d1b; 
+    /* padding-right: 20px; */
+} 
+.buton1{
+border: 1px solid black;
+border-radius: 60px;
+padding: 50px;
+}
+.spacing{
+    margin-top: 40px;
+}
+.comma{
+    border-right: 1px solid black;
+    padding: 20px;
+}
+.commas{
+    border-left: 1px solid black;
+    padding: 20px;
+}
+
+.clo{
+  font-size: 60px;
+}
+.clo1{
+  font-size: 100px;
+  font-weight: bolder;
+  flex-wrap: wrap;
+}
+.oval{
+  width: 200px;
+  height: 100px;
+  padding: 36px 56px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.cla{
+  margin-top: 40px;
+  border-top: 1px solid #1d1d1b;
+  border-bottom: 1px solid #1d1d1b;
+  font-family: "IM Fell French Canon", serif;
+}
+
+.the{
+  font-size: 200px;
+  font-family: "IM Fell French Canon", serif;
+}
+.pixel{
+  font-size: 200px;
+  font-family: "IM Fell French Canon", serif;
+}
+
+.perfect{
+  font-size: 220px;
+  font-family: "IM Fell French Canon", serif;
+}
+
+.ft-div1 {
+    overflow: hidden;
+    padding: 1rem 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.track {
+    display: flex;
+    width: max-content;
+    animation: scroll 10s linear infinite;
+    font-family: "IM Fell French Canon", serif;
+}
+
+.track:hover {
+    animation-play-state: paused;
+    cursor: grab;
+    font-family: "IM Fell French Canon", serif;
+}
+
+.content {
+    display: flex;
+}
+
+.content span {
+    display: inline-block;
+    padding: 0 2rem;
+    font-size: 2rem;
+    white-space: nowrap;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.emailme a {
+    text-decoration: none;
+    color: black;
+}
+
+.emailme {
+    font-family: "Big Shoulders Inline", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0;
+    color: black;
+    background: url(./multimedia/nicole\ background.jpg) no-repeat center/cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-decoration: none;
+}
+
+.ft-div2 h1,.socialmed {
+    font-family: "New Rocker", system-ui;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.legal {
+       font-family: "Titillium Web", sans-serif;
+       text-decoration: none;
+       color: black;
+       font-weight: 400;
+       font-size: 15px;
+}
