@@ -137,7 +137,7 @@ body {
 
 .head.h {
   padding: 3vw;
-  font-size: 20vw;
+  font-size: 19vw;
   margin: 22px;
     font-family: "IM Fell French Canon", serif;
 }
@@ -188,7 +188,9 @@ body {
   padding: 4.5vw 1vw 1vw;
   font-size: 16.6vw;
   margin: 22px;
+  font-family: "IM Fell French Canon", serif;
 }
+
 
 .postage {
   width: 20vw;
