@@ -310,9 +310,10 @@ padding: 50px;
     }
 }
 
-.emailme a {
+.emailme{
     text-decoration: none;
     color: black;
+    background-color: black;
 }
 
 .emailme {
@@ -322,7 +323,7 @@ padding: 50px;
     font-weight: 500;
     margin: 0;
     color: black;
-    background: url(./multimedia/nicole\ background.jpg) no-repeat center/cover;
+    background: url(./Multimedia/614f353f1e11a6a7afdd8b74_6059a3e2b9ae6d2bd508685c_pt-texture-2\ \(1\).jpg) no-repeat center/cover;
     -webkit-background-clip: text;
     background-clip: text;
     text-decoration: none;
